@@ -35,6 +35,11 @@ import * as explosions_implosion from "./explosions/implosion.js";
 import * as explosions_nuke from "./explosions/nuke.js";
 import * as explosions_plasma_explosion from "./explosions/plasma-explosion.js";
 import * as explosions_small_explosion from "./explosions/small-explosion.js";
+import * as explosions_small_explosion_bird_view from "./explosions/small-explosion-bird-view.js";
+import * as explosions_small_explosion_bird_view_a from "./explosions/small-explosion-bird-view-a.js";
+import * as explosions_small_explosion_bird_view_b from "./explosions/small-explosion-bird-view-b.js";
+import * as explosions_small_explosion_bird_view_c from "./explosions/small-explosion-bird-view-c.js";
+import * as explosions_small_explosion_bird_view_d from "./explosions/small-explosion-bird-view-d.js";
 import * as explosions_smoke_bomb from "./explosions/smoke-bomb.js";
 import * as water_bubbles from "./water/bubbles.js";
 import * as water_drip from "./water/drip.js";
@@ -283,6 +288,11 @@ export const effects = {
   "explosions/nuke": explosions_nuke,
   "explosions/plasma-explosion": explosions_plasma_explosion,
   "explosions/small-explosion": explosions_small_explosion,
+  "explosions/small-explosion-bird-view": explosions_small_explosion_bird_view,
+  "explosions/small-explosion-bird-view-a": explosions_small_explosion_bird_view_a,
+  "explosions/small-explosion-bird-view-b": explosions_small_explosion_bird_view_b,
+  "explosions/small-explosion-bird-view-c": explosions_small_explosion_bird_view_c,
+  "explosions/small-explosion-bird-view-d": explosions_small_explosion_bird_view_d,
   "explosions/smoke-bomb": explosions_smoke_bomb,
   "water/bubbles": water_bubbles,
   "water/drip": water_drip,

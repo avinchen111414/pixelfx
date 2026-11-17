@@ -1,6 +1,6 @@
 # Catalog
 
-244 effects in 21 categories. Every one is a file in
+249 effects in 21 categories. Every one is a file in
 `src/fx/<category>/<name>.js`; render any of them with `node tools/render.mjs <id> --gif`.
 
 ## moves
@@ -58,6 +58,11 @@ blasts, smoke, fireworks, mushroom clouds.
 | Nuke | `explosions/nuke` | one-shot 9s | 400×320 | A blinding white frame, then a fireball lifts on a thin stem into a wide rolling cap that glows from inside; a white skirt flashes and a dust surge sweeps the floor. |
 | Plasma explosion | `explosions/plasma-explosion` | one-shot 1.7s | 224×200 | A blue-violet energy blast with no smoke: a white flash, a ball of plasma swelling into a thinning shell, shock rings in and out of depth, lightning arcs crackling off it. |
 | Explosion | `explosions/small-explosion` | one-shot 5.4s | 300×240 | A ground blast: a white flash and shock rings, fire that cools into a rolling smoke column, sparks, burning brands that land and keep burning, tumbling rocks and a glowing scorch. |
+| Explosion (bird's-eye view) | `explosions/small-explosion-bird-view` | one-shot 4.2s | 288×288 | Seen from above: a spherical fireball filling the centre and rim; chunks grow, cool and roll outwards on a tunable easing curve, with shock rings, sparks and scorch. |
+| Bird's-eye explosion A - burst cloud | `explosions/small-explosion-bird-view-a` | one-shot 4.2s | 288×288 | Uneven, radially stretched fire chunks burst out of the centre as one cloud, then separate and stream outwards as they cool. |
+| Bird's-eye explosion B - swirl arms | `explosions/small-explosion-bird-view-b` | one-shot 4.2s | 288×288 | Five curved fire arms unwind from a hot core, each a chain of lumpy chunks that sweeps outwards and cools into embers. |
+| Bird's-eye explosion C - flame tongues | `explosions/small-explosion-bird-view-c` | one-shot 4.2s | 288×288 | Thick flame tongues shoot straight out of a small ragged hot heart; they only grow longer, then burn out into sparks. |
+| Bird's-eye explosion D - fire front | `explosions/small-explosion-bird-view-d` | one-shot 4.2s | 288×288 | A spherical fireball seen from above: chunks fill the centre as well as the rim, all growing, cooling and drifting outwards on a tunable easing curve. |
 | Smoke bomb | `explosions/smoke-bomb` | one-shot 5s | 260×176 | A round canister clinks down, fuse sparking, and pops: thick grey-violet smoke gushes out, rolls along the floor, billows into a cloud that hides all, then thins to wisps. |
 
 ## water
